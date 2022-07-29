@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -16,6 +17,7 @@
     <!--Header section-->
 
      <header class="header">
+        <div class="container header-wrapper">
            <a href="" class="logo link"><span class="logo-blue">Web</span>Studio</a>
          <nav class="header-nav">  
             <ul class="header-list list">
@@ -39,17 +41,21 @@
                     <a href="tel:+380961111111" class="contact-link active link">+38 096 111 11 11</a>
                </li>
            </ul>
+           </div>
      </header>
 
      <!--Main content--> 
 
      <main>
           <section class="hero">
+            <div class="container">
               <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
               <button type="button" class="hero-btn">Заказать услугу</button>
+            </div>
           </section>
           
-          <section class="feature">
+          <section class="feature section">
+            <div class="container">
               <ul class="feature-list list"> 
                   <li class="feature-item">
                       <h3 class="feature-title">Внимание к деталям</h3>
@@ -84,9 +90,11 @@
                     </p>
                 </li>
               </ul>
+              </div>
           </section>
 
-          <section class="services">
+          <section class="services section">
+            <div class="container">
                <h2 class="services-title">Чем мы занимаемся</h2>
                <ul class="services-list list">
                     <li class="services-item">
@@ -105,9 +113,11 @@
                         class="services-img">
                     </li>
                </ul>
+               </div>
           </section>
 
-          <section class="team">
+          <section class="team section">
+            <div class="container ">
               <h2 class="team-title">Наша команда</h2>
               <ul class="teem-list list">
                 <li class="team-item">
@@ -131,6 +141,7 @@
                     <p class="team-text">UI Designer</p>
                 </li>
               </ul>
+              </div>
           </section>
 
      </main>
@@ -138,6 +149,7 @@
      <!--Footer-->
 
      <footer class="footer">
+        <div class="container">
         <a href="" class="logo link"><span class="logo-blue">Web</span>Studio</a>
        <address class="footer-address"> 
             <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
@@ -150,6 +162,7 @@
                 </li>
             </ul>
         </address>
+        </div>
      </footer>
 
 </body>
