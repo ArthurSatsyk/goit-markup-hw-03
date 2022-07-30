@@ -107,18 +107,27 @@ body{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    /*
     padding-top: 24px;
-    padding-bottom: 25px;
+    padding-bottom: 25px;*/
     border-bottom: 1px solid #ECECEC;
 }
 
 .header-list{
     display: flex;
+  
+}
+.header-nav{
     margin-left: 93px;
 }
 
 .header-item:not(:last-child) {
     margin-right: 50px;
+}
+.header-item .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-list{
@@ -182,7 +191,7 @@ body{
     column-gap: 30px;
 }
 .feature-item{
-    max-width: 270px;
+    width: 270px;
 }
 
 .feature-title{
@@ -237,15 +246,18 @@ body{
     line-height: 1.18;
     background-color: var(--color-white);
     text-align: center;
-    padding-bottom: 30px;
 }
   
 .team-name {
     font-size: 16px;
     font-weight: 500;
-    margin-top: 30px;
     margin-bottom: 10px;
 } 
+
+.wrapper-name-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .team-text{
     color: var(--color-grey);
@@ -294,6 +306,7 @@ body{
     line-height: 1.62;
     text-align: center;
     cursor: pointer;
+    padding: 6px 22px;
 }
 .filter-btn:hover,
 .filter-btn:focus{
@@ -332,5 +345,6 @@ body{
     border-right: 1px solid #EEEEEE;
     padding-top: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 20px;
 }
